@@ -1,0 +1,20 @@
+# Python environment & cache
+__pycache__/
+*.py[cod]
+.venv/
+env/
+
+# Data and large binaries
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Model weights and artifacts
+models/*.keras
+models/*.npz
+models/*.json
+
+# Generated evaluation figures & summaries
+outputs/*
+!outputs/.gitkeep
