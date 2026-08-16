@@ -415,6 +415,16 @@ comparison_cases = [
         "prefix": "Case6_Temporal_Window_Pooling_Influence",
         "folders": ["v010", "v011", "v012", "v013"]
     },
+    {
+        "title": "q vs q-qs Testing",
+        "prefix": "Case7_q_or_qs",
+        "folders": ["v012", "v013"]
+    },
+    {
+        "title": "True rel_q ablation",
+        "prefix": "Case8_true_ablation",
+        "folders": ["v012", "v014"]
+    },
 ]
 
 folder_to_name = {mcfg["folder"]: mcfg["name"] for mcfg in models_config}
